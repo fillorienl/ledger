@@ -2,7 +2,7 @@
 
 Working name (placeholder). A self-hosted **evidence plane** for AI agents: it turns what agents actually do into EU AI Act-ready proof — a tamper-evident audit log, human-oversight records, an agent register with risk classification, and exportable evidence packs.
 
-It sits **next to** existing observability (Langfuse, Phoenix, WSO2 Agent Manager). It is not an agent runtime, a guardrails catalogue, or a tracing tool.
+It is a **standalone service**: it runs on its own, ingests agent activity directly over OpenTelemetry, and doesn't need any other platform to work. It can run next to existing observability (Langfuse, Phoenix, WSO2 Agent Manager) but must never depend on it. It is not an agent runtime, a guardrails catalogue, or a tracing tool.
 
 ## Status
 
