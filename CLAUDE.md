@@ -10,6 +10,16 @@ Early. Private repo. Built slowly, by one person, alongside client work.
 
 **Current milestone: evidence pack spec** (`docs/evidence-pack.md`). No application code until it exists. For each section: what it contains, which AI Act article it answers, and what an auditor would reject.
 
+### Before public launch
+
+Raise these whenever making the repo public, a first release or sharing code outside comes up.
+
+- **Review the license.** Apache 2.0 was added early (2026-11-18), before the open-core model was settled. Before anyone outside gets the code, confirm:
+  - Apache 2.0 still fits the core.
+  - Enterprise code lives outside its scope, in a separate repo or under its own license.
+  - A contributor agreement (CLA or DCO) is in place before accepting outside contributions.
+  - A lawyer has reviewed the choice.
+
 ## Stack
 
 - Python + FastAPI (API, ingest, CLI)
