@@ -24,7 +24,7 @@ Don't add other services or frameworks (Next.js console, OPA, Keycloak, ClickHou
 - **Cite the article.** Every feature or evidence section names the AI Act article it supports. Article references follow Regulation (EU) 2024/1689 as amended by the Digital Omnibus (Regulation (EU) 2026/1744); mark anything not checked against the consolidated text as `[unverified]`.
 - **EU-only and self-hosted.** No outbound calls by default, no telemetry home, air-gap friendly.
 - **Audit log is append-only.** Records are hash-chained; never write code that updates or deletes audit records.
-- **Open-core boundary from day one.** Core and enterprise features stay separable, with no shortcuts across the boundary. The license is not decided yet; don't add a LICENSE file or license headers.
+- **Open-core boundary from day one.** Core and enterprise features stay separable, with no shortcuts across the boundary. The repo is licensed under Apache 2.0 (`LICENSE`). Don't add per-file license headers unless asked.
 - **Reuse standards, don't rebuild them.** Prefer OTel, existing instrumentors and established libraries over custom code.
 
 ## Working rules
